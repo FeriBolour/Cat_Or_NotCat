@@ -9,7 +9,7 @@ import os
 
 IMAGE_SIZE = 256
 #IMAGE_DIRECTORY = 'V:/Cat_Or_Not/data/data/training_set'
-IMAGE_DIRECTORY = 'V:/Cat_Or_Not/data/testWithTrain/Project'
+IMAGE_DIRECTORY = 'Y:/Github/Cat_Or_NotCat/Project'
 
 
 def label_img(name):
@@ -73,6 +73,6 @@ print('creating model')
 model = create_model()
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 print('training model')
-model.fit(training_images, training_labels, batch_size=50, epochs=10, verbose=1)
+model.fit(training_images, training_labels, batch_size=10, epochs=10, verbose=1)
 model.save("modelProject.h5")
 

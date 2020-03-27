@@ -15,7 +15,8 @@ def center_crop(im,new_width,new_height):
     im.show()
 
 
-folder='C:/Users/farsh/Documents/GitHub/Cat_Or_NotCat/Training set' # All jpegs are in this folder
+#folder='Y:/Github/Cat_Or_NotCat/Training set' # All jpegs are in this folder
+folder = 'C:/Users/FarshadHome/Desktop'
 imList=glob.glob(folder+'/*.jpg') # Reading all images with .jpg
 
 for img in imList: # Loop

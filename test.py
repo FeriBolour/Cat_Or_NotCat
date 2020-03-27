@@ -8,8 +8,8 @@ import numpy as np
 import os
 
 IMAGE_SIZE = 256
-#IMAGE_DIRECTORY = 'V:/Cat_Or_Not/data/data/test_set'
-IMAGE_DIRECTORY = 'V:/Cat_Or_Not/data/testWithTrain/Project'
+IMAGE_DIRECTORY = 'Y:/Github/Cat_Or_NotCat/Project'
+
 
 def label_img(name):
     if name == 'cats': return np.array([1, 0])
