@@ -9,7 +9,7 @@ import os
 
 IMAGE_SIZE = 256
 #IMAGE_DIRECTORY = 'Y:/Github/Cat_Or_NotCat/TestSet'
-IMAGE_DIRECTORY = 'Y:/Github/Cat_Or_NotCat/Project/cats'
+IMAGE_DIRECTORY = 'V:/Cat_Or_Not/cat-or-not-1.0/cat-or-not-1.0/Cat_Or_NotCat/Training set'
 #def label_img(name):
 #    if name == 'cats': return np.array([1, 0])
 #    elif name == 'notcats' : return np.array([0, 1])
@@ -40,7 +40,7 @@ test_data = np.array(load_data())
 test_images = np.array([i for i in test_data]).reshape(-1,IMAGE_SIZE,IMAGE_SIZE,1)
 
 print('Loading model...')
-model = load_model("modelProject.h5")
+model = load_model("model3.h5")
 
 print('Making Prediction...')
 # make a prediction

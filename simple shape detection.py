@@ -44,8 +44,8 @@ for cnt in contours:
     x = approx.ravel()[0]
     y = approx.ravel()[1]
 
-#    if len(approx) == 4:
-#        cv2.putText(img, "Rectangle", (x, y), font, 1, (0))
+    if len(approx) == 4:
+        cv2.putText(img, "Rectangle", (x, y), font, 1, (0))
 
 cv2.imshow("shapes", img)
 cv2.imshow("Threshold", threshold)

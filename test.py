@@ -8,7 +8,7 @@ import numpy as np
 import os
 
 IMAGE_SIZE = 256
-IMAGE_DIRECTORY = 'Y:/Github/Cat_Or_NotCat/Project'
+IMAGE_DIRECTORY = 'V:/Cat_Or_Not/cat-or-not-1.0/cat-or-not-1.0/Cat_Or_NotCat/Project'
 
 
 def label_img(name):
